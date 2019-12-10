@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.Armstrong">
+
+   <EditText
+       android:id="@+id/etArms"
+       android:hint="Enter a Number"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+    <Button
+        android:text="check"
+        android:id="@+id/btnArms"
+        android:background="#283747"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvArm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+   <ImageView
+       android:src="@drawable/arms"
+       android:layout_width="match_parent"
+       android:layout_height="250dp"/>
+
+</LinearLayout>

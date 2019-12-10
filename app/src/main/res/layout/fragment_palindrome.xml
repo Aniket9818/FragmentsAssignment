@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.Palindrome">
+
+  <EditText
+      android:id="@+id/etPalindrome"
+      android:hint="Enter a Number"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnPalindrome"
+        android:text="Check"
+        android:background="#F39C12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvPalindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
